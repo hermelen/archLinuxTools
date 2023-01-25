@@ -10,14 +10,14 @@ returns
 GoogleDrive:
 ```
 
-## Display on specific remote
+## Display one specific remote
 ```console
 rclone lsd GoogleDrive:
 ```
 
 `:` is important to specify that it is remote and not local
 
-## Clone frome remote:
+## Clone from remote:
 ```console 
 rclone copy GoogleDrive:keepass ~/Documents/Rclone/GoogleDrive/keepass
 ```
