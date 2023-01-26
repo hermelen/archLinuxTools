@@ -22,3 +22,8 @@ rclone lsd GoogleDrive:
 rclone copy GoogleDrive:keepass ~/Documents/Rclone/GoogleDrive/keepass
 ```
 
+## Push to remote
+```console
+rclone sync -i ~/Documents/Rclone/GoogleDrive/keepass GoogleDrive:keepass
+```
+
