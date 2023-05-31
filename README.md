@@ -4,8 +4,7 @@ https://rclone.org/drive/
 
 ### For Windows
 Replace so user-friendly `rclone` with your rclone.exe location   
-fe: `/c/rclone/rclone.exe copy GoogleDrive:keepass ~/Documents/Rclone/GoogleDrive/keepass`  
-if rClone exe is located ther: `C:\rclone\rcloine.exe`
+fe if `rclone.exe` is in `C:\rclone\` directoty, type `/c/rclone/rclone.exe copy GoogleDrive:keepass ~/Documents/Rclone/GoogleDrive/keepass`  
 
 ## List remotes
 ```console
