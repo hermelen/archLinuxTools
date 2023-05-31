@@ -1,6 +1,12 @@
 # rclone: Google Drive sync(especially)
 https://rclone.org/docs/  
 https://rclone.org/drive/  
+
+### For Windows
+Replace so user-friendly `rclone` with your rclone.exe location   
+fe: `/c/rclone/rclone.exe copy GoogleDrive:keepass ~/Documents/Rclone/GoogleDrive/keepass`  
+if rClone exe is located ther: `C:\rclone\rcloine.exe`
+
 ## List remotes
 ```console
 rclone listremotes
