@@ -22,7 +22,7 @@ rclone lsd GoogleDrive:
 
 `:` is important to specify that it is remote and not local
 
-## Clone from remote:
+## Pull from remote:
 ```console 
 rclone copy GoogleDrive:keepass ~/Documents/Rclone/GoogleDrive/keepass
 ```
